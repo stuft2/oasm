@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/newman": "^5.1.3"
+  }
+}

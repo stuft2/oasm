@@ -15,7 +15,7 @@
     "lint": "eslint . --ext .ts,.tsx",
     "start": "node dist/index.js",
     "test": "mocha -r ts-node/register -r source-map-support/register test/unit/**/*.spec.ts",
-    "test:integration:accounts": "newman run --env-var \"host=localhost:8080\" ./test/integration/accounts.postman_collection.json"
+    "test:integration": "node -r ts-node/register test/integration/runner.ts"
   },
   "repository": {
     "type": "git",
